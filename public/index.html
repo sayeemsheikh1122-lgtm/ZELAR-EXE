@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SHADOW HUB — Login</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- Video Background -->
+  <video autoplay muted loop playsinline class="login-video">
+    <source src="https://cdn.discordapp.com/attachments/1497979406801572030/1513995400535736421/8e06560d-82db-45f6-961a-3c686ea10f53.mp4?ex=6a2a6a58&is=6a2918d8&hm=8d219b3c3fe309d28ae6c8df7ebb1fad85382f48895873300768af3649c19971&" type="video/mp4"/>
+  </video>
+  <div class="login-overlay"></div>
+
+  <!-- Centered Login Card -->
+  <div class="login-center">
+    <div class="login-card">
+      <h1 class="login-title">SHADOW HUB</h1>
+      <p class="login-sub">Enter your one-time license to continue</p>
+
+      <input id="passInput" type="text" class="login-input" placeholder="Enter license code..." autocomplete="off"/>
+
+      <button id="loginBtn" class="login-btn">LOGIN</button>
+
+      <div id="loginMsg" class="login-msg" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
